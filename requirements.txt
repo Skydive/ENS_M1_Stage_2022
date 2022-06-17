@@ -1,0 +1,10 @@
+wheel
+
+numpy
+pandas
+
+ipykernel
+jupyter
+
+geopandas
+geemap
