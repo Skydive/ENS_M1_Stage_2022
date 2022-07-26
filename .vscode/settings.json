@@ -4,5 +4,5 @@
         "unpkg.com"
     ],
     "git.ignoreLimitWarning": true,
-    "jupyter.jupyterServerType": "remote"
+    "jupyter.jupyterServerType": "local"
 }
