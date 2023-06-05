@@ -23,7 +23,7 @@ pkgs.mkShell {
     PYTHONPATH=${python-with-my-packages}/${python-with-my-packages.sitePackages}
     python -m venv .venv
     source .venv/bin/activate
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt
     export LD_LIBRARY_PATH=$(nix eval --raw nixpkgs#stdenv.cc.cc.lib)/lib
     jupyter notebook
   '';
